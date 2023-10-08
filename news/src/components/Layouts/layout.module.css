@@ -1,0 +1,9 @@
+.container {
+  width: 100%;
+  background-color: white;
+}
+
+.content {
+  padding: 16px 32px;
+  background-color: white;
+}

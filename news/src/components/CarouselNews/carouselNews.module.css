@@ -1,0 +1,36 @@
+.carousel__container {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8) 20%);
+  height: 100%;
+  transform: translateY(320px);
+  transition: transform 0.4s;
+}
+
+.carousel__content {
+  padding: 16px;
+  color: white;
+}
+
+.carousel_content_title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.carousel__content_source {
+  padding: 4px 16px;
+  font-weight: 500;
+  background-color: red;
+  width: fit-content;
+}
+
+.carousel_content_description {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.carousel_wrapper:hover .carousel__container {
+  transform: translateY(200px);
+}
+
+.carousel_wrapper:hover .carousel_content_description {
+  opacity: 1;
+}

@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.rounded-md {
+  border-radius: 8px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.ml-1 {
+  margin-left: 4px;
+}
+
+.mx-2 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.block {
+  display: block;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.layout-mt {
+  margin-top: 20px;
+}
+
+.mt-4 {
+  margin-top: 16px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.max-w-md {
+  max-width: 1024px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-h-500 {
+  max-height: 500px;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(168, 168, 168);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+h1.title {
+  font-weight: bold;
+  margin-bottom: 16px;
+  font-size: 32px;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.multiline-truncate {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.link {
+  color: white;
+}
+
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.not-found-container h1 {
+  font-weight: bold;
+  font-size: 200px;
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(204, 204, 204);
+  letter-spacing: 1.3rem;
+}
+
+.not-found-container p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+.not-found-container p a {
+  text-decoration: none;
+  color: rgb(68, 68, 209);
+}
+
+.description-detail {
+  color: rgb(194, 194, 194);
+}
